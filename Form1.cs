@@ -76,7 +76,6 @@ namespace AssessTry
             btn_shootaway.Enabled = false;
             btn_palyagain.Enabled = true;
 
-
         }
     }
 }

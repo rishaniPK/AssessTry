@@ -33,6 +33,7 @@
             this.btn_shoot = new System.Windows.Forms.Button();
             this.btn_shootaway = new System.Windows.Forms.Button();
             this.btn_palyagain = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -90,9 +91,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::AssessTry.Reso1.download;
-            this.pictureBox1.Location = new System.Drawing.Point(259, 57);
+            this.pictureBox1.Location = new System.Drawing.Point(224, 57);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(210, 226);
+            this.pictureBox1.Size = new System.Drawing.Size(225, 227);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -123,6 +124,7 @@
         private System.Windows.Forms.Button btn_shoot;
         private System.Windows.Forms.Button btn_shootaway;
         private System.Windows.Forms.Button btn_palyagain;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

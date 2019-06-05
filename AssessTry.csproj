@@ -53,6 +53,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="game.cs" />
+    <Compile Include="image.cs">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reso1.Designer.cs">
@@ -94,6 +97,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50832981_594314461032207_3332729126310983876_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charging-tone.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
